@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DoorbellPi", "DoorbellPi.vcxproj", "{570C0A08-149F-43BB-9F55-296C0D4A07DB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|ARM = Debug|ARM
+		Release|ARM = Release|ARM
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{570C0A08-149F-43BB-9F55-296C0D4A07DB}.Debug|ARM.ActiveCfg = Debug|ARM
+		{570C0A08-149F-43BB-9F55-296C0D4A07DB}.Debug|ARM.Build.0 = Debug|ARM
+		{570C0A08-149F-43BB-9F55-296C0D4A07DB}.Release|ARM.ActiveCfg = Release|ARM
+		{570C0A08-149F-43BB-9F55-296C0D4A07DB}.Release|ARM.Build.0 = Release|ARM
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
