@@ -8,3 +8,7 @@
 *.sdf
 *.opendb
 *.user
+/DoorbellPi/obj/ARM/Debug/main.o
+/DoorbellPi/obj/ARM/Debug
+/DoorbellPi/bin/ARM/Debug/DoorbellPi.out
+/DoorbellPi/bin/ARM/Debug

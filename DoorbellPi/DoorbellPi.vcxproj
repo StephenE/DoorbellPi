@@ -33,7 +33,7 @@
   <PropertyGroup Label="UserMacros" />
   <ItemDefinitionGroup>
     <Link>
-      <LibraryDependencies>wiringPi</LibraryDependencies>
+      <LibraryDependencies>wiringPi;curl</LibraryDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
