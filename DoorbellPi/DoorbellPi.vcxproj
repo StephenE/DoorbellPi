@@ -33,11 +33,17 @@
   <PropertyGroup Label="UserMacros" />
   <ItemDefinitionGroup>
     <Link>
-      <LibraryDependencies>wiringPi;curl</LibraryDependencies>
+      <LibraryDependencies>wiringPi</LibraryDependencies>
     </Link>
+    <ClCompile>
+      <CppLanguageStandard Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">c++14</CppLanguageStandard>
+    </ClCompile>
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="external\flic\client_protocol_packets.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets" />

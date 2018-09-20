@@ -13,3 +13,6 @@
 /DoorbellPi/bin/ARM/Debug/DoorbellPi.out
 /DoorbellPi/bin/ARM/Debug
 /DoorbellPi/.vs/DoorbellPi/v15/Browse.VC.db
+*.db
+/.vs
+/DoorbellPi/.vs
